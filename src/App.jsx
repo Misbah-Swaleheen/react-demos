@@ -2,7 +2,7 @@ import Button from "./Components/Events/Button";
 import Card from "./Components/List/Card";
 import Cart from "./Components/Conditional Rendering/Cart";
 import Copy from "./Components/Events/Copy";
-import Counter from "./Components/States/Counter";
+import Counter from "./Components/Hooks/States/Counter";
 import Footer from "./Components/Nesting Components/Footer";
 import Greet from "./Components/Greet";
 import Greeting from "./Components/Conditional Rendering/Greeting";
@@ -26,20 +26,30 @@ import UserList from "./Components/List/UserList";
 import UserStatus from "./Components/Conditional Rendering/UserStatus";
 import Weather from "./Components/Conditional Rendering/Weather";
 import WelcomeMessage from "./Components/JSX/WelcomeMessage";
-import Friends from "./Components/States/Friends";
-import Movie from "./Components/States/Movie";
-import Movies from "./Components/States/Movies";
-import Count from "./Components/States/Count";
-import ExampleOne from "./Components/States/ExampleOne";
-import ExampleTwo from "./Components/States/ExampleTwo";
-import ExampleThree from "./Components/States/ExampleThree";
-import TodoList from "./Components/States/TodoList";
-import Profile from "./Components/States/Profile";
-import ShoppingList from "./Components/States/ShoppingList";
-import TodoLists from "./Components/States/TodoLists";
-import ProfileInfo from "./Components/States/ProfileInfo";
-import ShoppingListX from "./Components/States/ShoppingListX";
+import Friends from "./Components/Hooks/States/Friends";
+import Movie from "./Components/Hooks/States/Movie";
+import Movies from "./Components/Hooks/States/Movies";
+import Count from "./Components/Hooks/States/Count";
+
+import ExampleOne from "./Components/Hooks/States/ExampleOne";
+import ExampleTwo from "./Components/Hooks/States/ExampleTwo";
+import ExampleThree from "./Components/Hooks/States/ExampleThree";
+import TodoList from "./Components/Hooks/States/TodoList";
+import Profile from "./Components/Hooks/States/Profile";
+import ShoppingList from "./Components/Hooks/States/ShoppingList";
+import TodoLists from "./Components/Hooks/States/TodoLists";
+import ProfileInfo from "./Components/Hooks/States/ProfileInfo";
+import ShoppingListX from "./Components/Hooks/States/ShoppingListX";
 import CopyInput from "./Components/Portal/CopyInput";
+import Value from "./Components/Hooks/Effects/Value";
+import Data from "./Components/Hooks/Effects/Data";
+import BasicEffect from "./Components/Hooks/Effects/BasicEffect";
+import CounterEffect from "./Components/Hooks/Effects/CounterEffect";
+import FetchDataEffect from "./Components/Hooks/Effects/FetchDataEffect";
+import UserProfile from "./Components/Hooks/Context/UserProfile";
+import { UserProvider } from "./Components/Hooks/Context/UserContext";
+import UpdateUser from "./Components/Hooks/Context/UpdateUser";
+import CountReducer from "./Components/Hooks/Reducer/CountReducer";
 
 const App = () => {
   return <div>
@@ -90,7 +100,18 @@ const App = () => {
     <TodoLists /> */}
     {/* <ProfileInfo /> */}
     {/* <ShoppingListX /> */}
-    <CopyInput />
+    {/* <CopyInput /> */}
+    {/* <Value />  */}
+    {/* <Data /> */}
+    {/* <BasicEffect />
+    <CounterEffect />
+    <FetchDataEffect /> */}
+    {/* <UserProvider>
+      <UserProfile />
+      <UpdateUser />
+    </UserProvider> */}
+    <CountReducer />
+    
   </div>
 }
 

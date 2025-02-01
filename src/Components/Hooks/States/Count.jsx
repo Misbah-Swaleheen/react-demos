@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import ComponentOne from '../ComponentOne'
-import ComponentTwo from '../ComponentTwo'
+import ComponentOne from '../../ComponentOne';
+import ComponentTwo from '../../ComponentTwo';
 
 const Count = () => {
     const [count , setCount] = useState(0);
