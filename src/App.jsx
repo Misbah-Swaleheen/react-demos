@@ -50,6 +50,11 @@ import UserProfile from "./Components/Hooks/Context/UserProfile";
 import { UserProvider } from "./Components/Hooks/Context/UserContext";
 import UpdateUser from "./Components/Hooks/Context/UpdateUser";
 import CountReducer from "./Components/Hooks/Reducer/CountReducer";
+import FocusRef from "./Components/Hooks/Ref/FocusRef";
+import FocusInput from "./Components/Hooks/Ref/FocusInput";
+import Timer from "./Components/Hooks/Ref/Timer";
+import Home from "./Components/Hooks/Custom/Home";
+import UniqueID from "./Components/Hooks/Id/UniqueID";
 
 const App = () => {
   return <div>
@@ -110,8 +115,14 @@ const App = () => {
       <UserProfile />
       <UpdateUser />
     </UserProvider> */}
-    <CountReducer />
-    
+    {/* <CountReducer /> */}
+    {/* <FocusRef />
+    <FocusInput /> 
+    <Timer /> */}
+    {/* <Home /> */}
+    <UniqueID />
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo fuga debitis blanditiis mollitia ducimus corporis unde repellat nihil, perspiciatis, voluptatibus perferendis! Repudiandae maiores, ut dolore eum quas neque modi quaerat?</p>
+    <UniqueID /> 
   </div>
 }
 
